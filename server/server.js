@@ -33,4 +33,14 @@ const courseCard = [
 app.use(cors());
 app.use(bodyParser.json());
 app.get("/", (req, res) => res.send(courseCard));
+
+app.get("/:id", (req, res) => {
+  let id = req.params.id;
+  let idData = courseCard.find((a) => a.id == id);
+  res.send(idData);
+});
+
+app.delete("/:id", (req, res) => {
+  let { id } = req.params;
+});
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));

@@ -1,0 +1,34 @@
+.detailsPage {
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-top: 200px;
+  .container {
+    display: flex;
+    justify-content: center;
+    column-gap: 7%;
+    .right {
+      button {
+        background-color: #ffb606;
+        border-color: transparent;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-size: 1rem;
+        font-weight: 600;
+        color: white;
+        a {
+          color: white;
+          text-decoration: none;
+        }
+        &:hover {
+          transition: 0.5s;
+          background-color: white;
+          color: #ffb606;
+          border: 1px solid #ffb606;
+          a {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
