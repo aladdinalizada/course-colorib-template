@@ -14,7 +14,7 @@ const PopularCurses = () => {
   useEffect(() => {
     getdata();
   }, []);
-
+  const handleSortByPrice = () => {};
   return (
     <div>
       <div className="popularcourses">
@@ -23,7 +23,7 @@ const PopularCurses = () => {
             <hr />
             <h2>Popular Courses</h2>
           </div>
-          <button>By Price</button>
+          <button onClick={(e) => handleSortByPrice()}>By Price</button>
           <div className="row-body">
             {courses.map((course) => (
               <div className="card">

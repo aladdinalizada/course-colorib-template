@@ -20,14 +20,14 @@ const courseCard = [
     title: "A complete guide to design",
     description: "Beginners guide to HTML",
     img: "https://preview.colorlib.com/theme/course/images/course_2.jpg.webp",
-    price: 29,
+    price: 30,
   },
   {
     id: 3,
     title: "A complete guide to design",
     description: "Advanced Photoshop",
     img: "https://preview.colorlib.com/theme/course/images/course_3.jpg.webp",
-    price: 29,
+    price: 44,
   },
 ];
 app.use(cors());
