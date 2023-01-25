@@ -1,0 +1,43 @@
+.footer {
+  background-color: #1a1a1a;
+  .conatiner {
+    max-width: 1200px;
+    margin: 0 auto;
+    .row {
+      display: flex;
+      border-top: 1px solid #ffb606;
+      justify-content: space-between;
+      align-items: center;
+      .left {
+        h3 {
+          color: #777777;
+          a {
+            color: blue;
+            text-decoration: none;
+          }
+        }
+      }
+      .right {
+        ul {
+          display: flex;
+          column-gap: 20px;
+          li {
+            list-style-type: none;
+            font-weight: 600;
+            font-size: 18px;
+            color: white;
+            cursor: pointer;
+            &:hover {
+              color: #ffb606;
+              transition: 0.3s;
+            }
+            a {
+              text-decoration: none;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
